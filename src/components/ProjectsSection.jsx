@@ -11,7 +11,7 @@ const PROJECTS = [
     desc: 'Advanced neural diagnostic system for automated Brain Tumor detection using a refined VGG16 architecture. Trained on 7,000+ clinical MRI samples with integrated Grad-CAM overlays for neurosurgeon explainability.',
     metrics: { accuracy: '98.2%', latency: '45ms', params: '138M' },
     tech: ['TensorFlow', 'FastAPI', 'Gemini 2.0', 'Docker'],
-    image: '/projects/neuroscan_hi.png',
+    image: 'projects/neuroscan_hi.png',
     accent: '#00f0ff', // Electric Cyan
   },
   {
@@ -20,7 +20,7 @@ const PROJECTS = [
     desc: 'Comprehensive consultant ecosystem featuring 4 specialized ML modules for disease risk profiling. Built with a high-performance FastAPI back-end and production-grade Pydantic schemas for deep data validation.',
     metrics: { uptime: '99.9%', coverage: '4 Modules', api: 'REST' },
     tech: ['PyTorch', 'FastAPI', 'Firebase', 'HuggingFace'],
-    image: '/projects/medtrust_hi.png',
+    image: 'projects/medtrust_hi.png',
     accent: '#10b981', // Emerald Green
   },
   {
@@ -29,7 +29,7 @@ const PROJECTS = [
     desc: 'Real-time predictive analytics suite for cardiac assessment. Leverages feature-engineered clinical datasets to provide instantaneous risk scoring via a custom Streamlit orchestration layer.',
     metrics: { precision: '96.5%', f1: '0.94', status: 'Live' },
     tech: ['Scikit-Learn', 'Streamlit', 'Pandas'],
-    image: '/projects/heart_hi.png',
+    image: 'projects/heart_hi.png',
     accent: '#ef4444', // Heart Red
   },
   {
@@ -38,7 +38,7 @@ const PROJECTS = [
     desc: 'Real-time safety monitoring application utilizing custom CNN topologies. Engineered for low-latency inference on edge devices, achieving high mAP even in low-light clinical environments.',
     metrics: { fps: '60+', mAP: '0.89', inference: 'Edge' },
     tech: ['PyTorch', 'OpenCV', 'Streamlit'],
-    image: '/projects/mask_hi.png',
+    image: 'projects/mask_hi.png',
     accent: '#6366f1', // Indigo Pulse
   }
 ]
@@ -143,7 +143,7 @@ export default function ProjectsSection() {
                 <div className="img-wrapper relative z-10 rounded-sm overflow-hidden group-hover:shadow-[0_20px_50px_rgba(0,0,0,0.1)] transition-shadow duration-700">
                   <div className="absolute inset-0 bg-black/5 mix-blend-overlay z-10 pointer-events-none" />
                   <img 
-                    src={proj.image} 
+                    src={`${import.meta.env.BASE_URL}${proj.image}`} 
                     alt={proj.title}
                     className="w-full aspect-[16/10] object-cover group-hover:scale-105 transition-transform duration-1000"
                     onError={(e) => { e.target.src = 'https://via.placeholder.com/1280x800/f5f5f5/999999?text=Neural+Interface' }}
