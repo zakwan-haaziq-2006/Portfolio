@@ -31,3 +31,6 @@ dist-ssr
 
 # Custom / Temp
 .eslintcache
+/*.pdf
+/*.txt
+/*.png
