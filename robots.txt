@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://zakwan-haaziq-2006.github.io/Portfolio/sitemap.xml
