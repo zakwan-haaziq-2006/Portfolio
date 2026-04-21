@@ -1,0 +1,78 @@
+Zakwan Haaziq K  
+zakwanhaaziq06@gmail.com  |  +91 9025032244  |  GitHub   |  LinkedIn  
+ 
+PROFILE SUMMARY  
+Computer Science undergraduate who has designed, trained, and deployed 6+ end -to-end Machine Learning and Deep Learning 
+applications across healthcare and computer vision domains using TensorFlow, PyTorch, Scikit -learn, FastAPI, and Streamlit. 
+Skilled acro ss the complete ML pipeline — data preprocessing, feature engineering, transfer learning, hyperparameter tuning, 
+Grad -CAM explainability, and production deployment on Docker, HuggingFace Spaces, and Streamlit Cloud. Experienced 
+building CNN -based classifie rs, REST API backends with FastAPI, and real -time inference systems that are live and publicly 
+accessible.  
+EXPERIENCE  
+Machine Learning Intern  Aug 2025 – Sep 2025  
+Novi Tech Research & Development Pvt. Ltd.  
+• Developed end -to-end machine learning pipelines  for classification and regression tasks using PyTorch and Scikit -learn, 
+covering data preprocessing , feature engineering , model training, and evaluation.  
+• Implemented Convolutional Neural Networks (CNN)  for computer vision tasks including image classification and object 
+detection, applying data augmentation and transfer learning  to improve model generalization.  
+• Optimized models via hyperparameter tuning  and k-fold cross -validation , systematically improving accuracy and 
+reducing overfitting across real -world datasets.  
+• Deployed trained models as interactive Streamlit  web applications, enabling real-time inference  and live user interaction 
+with production ML systems.  
+Machine Learning Intern  Sep 2025 – Oct 2025  
+CodSoft  
+• Implemented 5 ML tasks spanning binary classification , multi -class classification, and regression  using Scikit -learn , 
+Pandas, and NumPy on structured real -world datasets.  
+• Executed end -to-end data preprocessing  pipelines including missing value imputation, label encoding, feature scaling , 
+and outlier removal to ensure clean model inputs.  
+• Evaluated models using accuracy, precision, recall, F1 -score , and ROC -AUC; applied cross -validation  to verify 
+generalization and prevent data leakage.  
+EDUCATION  
+B.E. Computer Science and Engineering  Sep 2024 – Present  
+C. Abdul Hakeem College of Engineering and Technology, Melvisharam   |   CGPA: 9.01  
+Senior Secondary (XII) – Tamil Nadu State Board  Mar 2023 – Mar 2024  
+K.H. Matriculation Boys Higher Secondary School, Melvisharam   |   Score: 86.6%  
+Secondary Education (X) – Tamil Nadu State Board  Mar 2021 – Mar 2022  
+K.H. Matriculation Boys Higher Secondary School, Melvisharam   |   Score: 86.8%  
+PROJECTS  
+Brain Tumor Detection (NeuroScan AI)   |  TensorFlow, VGG16, Grad -CAM, FastAPI, Gemini 2.0, Docker   |  Live ↗ 
+• Fine-tuned VGG16  on 7,000+ MRI scans across 4 classes (Glioma, Meningioma, Pituitary, No Tumor) using two-phase 
+transfer learning  — frozen base for 5 epochs then top -20 layers unfrozen — boosting accuracy from 84% to 96% test 
+accuracy . 
+• Implemented Grad -CAM  on the last convolutional layer (block5_conv3) to generate heatmap overlays that visually highlight 
+tumor regions in MRI scans, enabling clinician trust and model explainability . 
+• Built a FastAPI  backend with /predict and /caption endpoints; integrated Gemini 2.0 Flash  via OpenRouter to auto -generate 
+structured diagnostic reports; containerized with Docker  and deployed on HuggingFace Spaces . 
+MedTrust – Health Consultant Backend   |  FastAPI, Firebase, Scikit -learn, PyTorch, Docker   |  Live ↗ 
+• Engineered a FastAPI  backend with 4 dedicated ML model endpoints — Heart Disease, Diabetes, Life Risk, and Brain 
+Tumor — with a model_loader.py  that auto -downloads all models on startup forming a complete machine learning 
+pipeline . 
+• Defined structured request/response schemas for all 4 endpoints using Pydantic  models (schema/ folder), ensuring robust 
+input validation  and consistent API contracts.  
+• Integrated Firebase  for real -time authentication and built an admin monitoring dashboard for live tracking of user requests; 
+containerized with Docker  and deployed on HuggingFace Spaces . 
+Heart Disease Prediction Chatbot   |  Scikit -learn, Pandas, Streamlit   |  Live ↗ 
+• Trained and serialized an ML classifier (Model.pkl) on the hearts.csv dataset; applied data preprocessing  including feature 
+selection  and handling of clinical variables such as ST Slope  and Oldpeak . 
+• Implemented smart UX logic that auto -calculates Maximum Heart Rate  as (220 − age) and internally handles hidden clinical 
+features, reducing user input friction while maintaining prediction accuracy.  
+• Deployed a conversational chatbot -style Streamlit  UI that collects patient parameters and serves real-time heart disease 
+risk predictions through the serialized ML model.  
+Face Mask Detection   |  PyTorch, OpenCV, Streamlit   |  Live ↗ 
+• Designed and trained a custom CNN architecture  (defined in architecture.py) using PyTorch  on a Kaggle face mask 
+dataset; saved best model weights as best_model.pth  using checkpoint -based training.  
+• Applied image preprocessing and data augmentation  using OpenCV  including resizing to fixed dimensions, normalization, 
+and flipping to improve model robustness across varied real -world lighting and angles.  
+• Deployed on Streamlit Cloud  where users upload an image and receive instant binary classification  — masked vs. 
+unmasked — via real-time inference  through the loaded PyTorch model.  
+SKILLS  
+ 
+Programming Languages:  Python, Java, C, C++  
+Machine Learning & Deep Learning:  PyTorch, TensorFlow/Keras, Scikit -learn, OpenCV, VGG16, CNN, Grad -CAM  
+Data Analysis:  Pandas, NumPy, Matplotlib, Seaborn  
+Frameworks & Backend:  FastAPI, Streamlit, Docker, Pydantic  
+Tools & Platforms:  Git, GitHub, Firebase, HuggingFace Spaces, Power BI, Tableau, MS Excel  
+ACHIEVEMENTS  
+•  Smart India Hackathon 2025 (SIH)  — Represented college at national level with a real -time Deep Learning project for wheat 
+disease classification.  
+•  Academic Excellence  — Maintaining CGPA of 9.01 in B.E. Computer Science Engineering (1st Year).  
